@@ -1,3 +1,6 @@
+import 'package:meta/meta.dart';
+
+@sealed
 class Bicycle {
   int cadence;
   int _speed = 0;

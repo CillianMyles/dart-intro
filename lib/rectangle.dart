@@ -1,9 +1,13 @@
 import 'dart:math';
 
+import 'package:meta/meta.dart';
+
+@sealed
+@immutable
 class Rectangle {
-  int width;
-  int height;
-  Point origin;
+  final int width;
+  final int height;
+  final Point origin;
 
   Rectangle({
     this.origin = const Point(0, 0),
