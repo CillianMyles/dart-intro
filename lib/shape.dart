@@ -25,3 +25,10 @@ class Circle extends Shape {
   @override
   num get area => pi * pow(radius, 2);
 }
+
+Shape shapeFactory(String type) {
+  ArgumentError.checkNotNull(type, 'type');
+  if (type == 'circle') return Circle(2);
+  if (type == 'square') return Square(2);
+  throw 'Cannot create shape of type: $type!';
+}
