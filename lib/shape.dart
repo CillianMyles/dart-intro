@@ -32,6 +32,7 @@ class Circle implements Shape {
   num get area => pi * pow(radius, 2);
 }
 
+// ignore: must_be_immutable
 class CircleMock implements Circle {
   @override
   num area;
