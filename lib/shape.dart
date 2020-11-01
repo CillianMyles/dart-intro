@@ -31,3 +31,11 @@ class Circle implements Shape {
   @override
   num get area => pi * pow(radius, 2);
 }
+
+class CircleMock implements Circle {
+  @override
+  num area;
+
+  @override
+  num radius;
+}
