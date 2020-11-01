@@ -1,3 +1,1 @@
-class Imperative {
-  static String scream(int length) => 'A${'a' * length}h!';
-}
+String scream(int length) => 'A${'a' * length}h!';
