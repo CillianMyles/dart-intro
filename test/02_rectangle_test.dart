@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:dart_intro/rectangle.dart';
+import 'package:dart_intro/02_rectangle.dart';
 import 'package:test/test.dart';
 
 void main() {

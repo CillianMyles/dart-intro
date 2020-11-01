@@ -1,4 +1,4 @@
-import 'package:dart_intro/shape.dart';
+import 'package:dart_intro/03_shape.dart';
 
 void main() {
   final circle = Shape('circle');

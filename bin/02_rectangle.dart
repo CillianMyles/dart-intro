@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:dart_intro/rectangle.dart';
+import 'package:dart_intro/02_rectangle.dart';
 
 void main() {
   print(Rectangle(origin: const Point(10, 20), width: 100, height: 200));

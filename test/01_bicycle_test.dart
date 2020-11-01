@@ -1,4 +1,4 @@
-import 'package:dart_intro/bicycle.dart';
+import 'package:dart_intro/01_bicycle.dart';
 import 'package:test/test.dart';
 
 void main() {
